@@ -25,6 +25,10 @@ Download some test data from [goole_drive](https://drive.google.com/drive/folder
 ```
 generate_image1.py --network pretrained_patg --outdir result_dir --dpath test_img_dir --mpath test_mask_dir 
 ```
+pretrained_model: This is the directory where the pretrained_model .
+result_dir: This is the directory where the output results.
+train_img_path: This is the directory where the img
+train_mask_path: This is the directory where the mask
 
 # Visualization 🌎🌎🌎
 Comparison of different methods on FMI images with 20% missing areas.
@@ -39,6 +43,10 @@ If you want to train a model on you dateset, run a bash script with
 ```
 generate_image1.py --network pretrained_model --outdir result_dir --dpath train_img_path --mpath train_mask_path
 ```
+pretrained_model: This is the directory where the pretrained_model , if you don't need it ,set None.
+result_dir: This is the directory where the output results.
+train_img_path: This is the directory where the img
+train_mask_path: This is the directory where the mask
 
 # Citation 🤝🤝🤝
 
